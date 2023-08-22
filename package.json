@@ -1,0 +1,14 @@
+{
+  "name": "project-js-10",
+  "version": "1.0.0",
+  "description": "todo js-01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js-10"
+  ],
+  "author": "faeze ahmadi",
+  "license": "ISC"
+}
