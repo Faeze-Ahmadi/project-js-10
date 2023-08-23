@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <form class="grid mt-52 place-items-center">
+    <form class="grid mt-44 place-items-center">
         
         <img class="w-16 mb-10 h-16 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="./img/aesthetic-dark-pink-background-yzu3z77dj2qi585v.jpg" alt="Bordered avatar">
  
@@ -35,13 +35,19 @@
             </div>
         </div>
 
-        
-        <div class="text-center">
-            <button id="ShowContactButton" class="text-white bg-pink-600  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 type="button" data-drawer-target="drawer-bottom-example" data-drawer-show="drawer-bottom-example" data-drawer-placement="bottom" aria-controls="drawer-bottom-example">
-            Show Contact List
-            </button>
+        <div class="buttons flex mt-2 mr-5">
+            <div class="text-center">
+                <button id="submitButton" class="text-white bg-pink-600  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 type="button" data-drawer-target="drawer-bottom-example" data-drawer-show="drawer-bottom-example" data-drawer-placement="bottom" aria-controls="drawer-bottom-example">
+                Add to Contact List
+                </button>
+            </div>
+            
+            <div class="text-center">
+                <button id="ShowContactButton" class="text-white bg-pink-600  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 type="button" data-drawer-target="drawer-bottom-example" data-drawer-show="drawer-bottom-example" data-drawer-placement="bottom" aria-controls="drawer-bottom-example">
+                Show Contact List
+                </button>
+            </div>
         </div>
-        
         <!-- drawer component -->
         <div id="contacts-list" class="fixed bottom-0 left-0 right-0 z-40 w-full p-4 overflow-y-auto transition-transform bg-white dark:bg-gray-800 transform-none" tabindex="-1" aria-labelledby="drawer-bottom-label">
             <h5 id="contactsListDrawer" class="inline-flex items-center mb-4 text-base font-semibold text-gray-500 dark:text-gray-400"><svg class="w-4 h-4 mr-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

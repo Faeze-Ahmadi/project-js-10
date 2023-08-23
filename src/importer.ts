@@ -1,3 +1,5 @@
+import {ContacsListType} from "./types";
+
 export const contactNameInput =
     document.querySelector<HTMLInputElement>("#contactName");
 export const phoneNumberInput =
@@ -12,4 +14,7 @@ export const contactListElement =
     document.querySelector<HTMLUListElement>("#contacts-list");
 export const contactsListDrawer =
     document.querySelector<HTMLUListElement>("#contactsListDrawer");
+export const submitButton =
+    document.querySelector<HTMLUListElement>("#submitButton");
+export const contactsList: ContacsListType = [];
 
