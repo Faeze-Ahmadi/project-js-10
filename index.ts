@@ -1,1 +1,1 @@
-console.log("js-10");
+import { ContactProps , ContacsListType} from "./src/types";
