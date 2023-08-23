@@ -1,3 +1,3 @@
 "use strict";
-console.log("js-10");
+Object.defineProperty(exports, "__esModule", { value: true });
 //# sourceMappingURL=index.js.map
