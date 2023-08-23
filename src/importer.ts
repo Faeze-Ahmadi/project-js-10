@@ -15,6 +15,6 @@ export const contactListElement =
 export const contactsListDrawer =
     document.querySelector<HTMLUListElement>("#contactsListDrawer");
 export const submitButton =
-    document.querySelector<HTMLUListElement>("#submitButton");
+    document.querySelector<HTMLButtonElement>("#submitButton");
 export const contactsList: ContacsListType = [];
 
