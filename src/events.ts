@@ -4,7 +4,7 @@ import {
     phoneNumberInput, 
     deviceStorageInput,
     contactListElement,
-    contactsList  
+    contactsList,  
 } from "./importer.js";
 
 import {ContactProps} from "./types.js";

@@ -11,7 +11,7 @@ export const ShowContactButton =
 export const closeDrawerButton =
     document.querySelector<HTMLButtonElement>("#closeDrawerButton");
 export const contactListElement =
-    document.querySelector<HTMLUListElement>("#contacts-list");
+    document.querySelector<HTMLUListElement>("#contacts_list");
 export const contactsListDrawer =
     document.querySelector<HTMLUListElement>("#contactsListDrawer");
 export const submitButton =

@@ -1,4 +1,4 @@
-import { contactNameInput, contactsListDrawer, phoneNumberInput, deviceStorageInput, contactListElement, contactsList } from "./importer.js";
+import { contactNameInput, contactsListDrawer, phoneNumberInput, deviceStorageInput, contactListElement, contactsList, } from "./importer.js";
 export const showContactButtonHandler = () => {
     contactsListDrawer?.classList.remove("bottom-[-100%]");
     contactsListDrawer?.classList.add("bottom-[0%]");
