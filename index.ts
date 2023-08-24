@@ -1,8 +1,6 @@
 import { 
     ShowContactButton,
     closeDrawerButton,
-    contactListElement,
-    contactsList,
     submitButton
 } from "./src/importer.js";
 
